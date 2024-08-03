@@ -1,0 +1,102 @@
+.menu{
+  position: absolute;
+  font-style: oblique;
+  justify-content: flex-end;
+  left: 850px;   
+   
+}
+
+.material-icons{
+  vertical-align:sub;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none; /* Quita las viñetas predeterminadas */
+  margin: 18px; /* Elimina el espacio externo */
+}
+
+li {
+  display: inline; /* Muestra los elementos en línea */
+  margin-right: 25px; /* Añade un espacio entre los elementos */
+}
+
+.inicioProductoContactos img{
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.inicioProductoContactos{
+  display:inline-flex;
+  background-color: rgb(243, 250, 180);
+  height: 100px;
+  width: 1336px;
+  left: 8px;
+  flex-wrap: nowrap;
+}
+
+.inicioProductoContactos h1{
+  display: flex;
+  position: absolute;
+  font-style: oblique;
+  padding-left: 180px;
+}
+
+.productos-container {
+  display:grid;
+  grid-template-columns: repeat(5, auto);
+  height: 800px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.productos-container img{
+  width: 110px;
+}
+
+.productos-container div {
+  color: black;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 10px;
+  width: 120px;
+  display: block;
+}
+
+.total{
+  position: inherit;
+  border: 2px solid black;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 40%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#opciones{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px/20px;
+  background-color: green;
+  margin-top: 10px;
+
+ }
+.footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  height: 40px;
+  width: 1300px;
+}

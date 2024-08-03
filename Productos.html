@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./productos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html"><i class="material-icons">home</i>INICIO</a></li>
+                <li><a href="./Productos.html"><i class="material-icons">menu</i>PRODUCTOS</a></li>
+                <li><a href="./Formulario.html"><i class="material-icons">mail</i>CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="inicioProductoContactos">    
+        <a href="./index.html"><img src="Img/Logo.jpg" alt="logo"></a>
+        <h1>Supermercado Feliz</h1>
+    </div>
+     
+    <h1>Productos</h1>
+    <div class="productos-container">
+    </div>
+
+    <div class="total">
+        <p>Total: $<span id="total"></span></p>  
+        <select id="opciones">
+            <option value="Tarjeta de Debito">Tarjeta de Debito</option>
+            <option value="Tarjeta de Credito">Tarjeta de Credito</option>
+            <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+            <option value="Efectivo">Efectivo</option>
+        </select>
+        <button class="btn" onclick="pagar()"><i class="material-icons">payments</i>Pagar</button>
+    </div>
+    
+
+    <footer class="footer">
+        <p><p>&copy; 2024 Supermercado Feliz | Todos los derechos reservados | Términos y Condiciones del Servicio | Defensa de las y los Consumidores para reclamos ingrese aqui</p></p>
+    </footer>
+
+    <script src="./productos.js"></script>
+</body>
+</html>

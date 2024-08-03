@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="./index.html"><i class="material-icons">home</i>INICIO</a></li>
+            <li><a href="./Productos.html"><i class="material-icons">menu</i>PRODUCTOS</a></li>
+            <li><a href="./Formulario.html"><i class="material-icons">mail</i>CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div class="inicioProductoContactos">    
+        <a href="./index.html"><img src="Img/Logo.jpg" alt="logo"></a>
+        <h1>Supermercado Feliz</h1>
+    </div>
+
+    <div class="total">
+        <p>Total: $<span id="total"></span></p></div>
+    </div>
+
+    <h2>Formulario de contacto</h2>
+
+    <form class="form" action="procesar.php" method="post" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <br>
+        <button type="submit" id="btnEnviar"><i class="material-icons">mail</i>Enviar</button>
+    </form>
+
+    <img src="Img/compras.jpeg" alt="foto formulario compras" class="fotofooter">
+
+    <footer class="footer">
+        <p>&copy; 2024 Supermercado Feliz | Todos los derechos reservados | Términos y Condiciones del Servicio | Defensa de las y los Consumidores para reclamos ingrese aqui</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="formulario.js"></script>
+</body>
+
+</html>
